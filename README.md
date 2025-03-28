@@ -1,3 +1,28 @@
+Candidate Search App
+This app allows users to search and view GitHub user profiles, save favorites, and navigate through candidates using data from the GitHub API.
+
+Technologies Used
+React: For building the user interface.
+
+TypeScript: Adds type safety to the codebase.
+
+Vite: For fast builds and development.
+
+GitHub API: To fetch public GitHub user data.
+
+LocalStorage: Saves user data locally for persistence.
+
+Features
+Random Candidate Fetching: Displays random GitHub user profiles on load.
+
+Save Candidates: Save profiles to LocalStorage for future reference.
+
+Navigation: Easily navigate between candidates.
+
+Error Handling: Provides helpful messages if the API fails.
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
