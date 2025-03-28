@@ -8,5 +8,14 @@ export default defineConfig({
     host: '0.0.0.0',
     port: 3000, // Optional, use Render's PORT variable during deployment
   },
+  preview: {
+    allowedHosts: [
+      'candidatesearch13.onrender.com',  
+      'localhost',
+    ],
+  },
 });
+
+
+
 //envDir: './env',
